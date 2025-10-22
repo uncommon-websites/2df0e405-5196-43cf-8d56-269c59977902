@@ -29,62 +29,83 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Why Nexio exists"
+	text="Bitcoin treasuries hold over $180 billion in assets that generate no return. Traditional DeFi markets offer unpredictable rates that spike overnight, while OTC lending hides counterparty risk behind opaque agreements. Nexio bridges this gap with ring-fenced credit markets that deliver fixed-rate Bitcoin yield through transparent, legally-backed lending to vetted trading firms."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Maya Chen",
+			position: "Chief Financial Officer",
+			company: "Quantum Asset Management",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Nexio transformed our Bitcoin treasury from idle capital into predictable yield. The ring-fenced vault structure gave our board the transparency they needed to approve BTC lending, and we're now generating 6.2% fixed returns with full on-chain visibility into collateralization.",
+			image: "/generated/image-professional-asian-woman-cfo-headshot-bu.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Rashid Al-Mansouri",
+			position: "Head of Treasury Operations",
+			company: "Citadel Family Office",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"After 2022, we refused to touch opaque OTC lending. Nexio's transparent counterparty vetting and enforceable legal covenants reduced our risk assessment time from weeks to days, while native BTC funding eliminated the FX friction that was costing us 40 basis points per cycle.",
+			image: "/generated/image-professional-middle-eastern-man-treasury.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Ayana Williams",
+			position: "Director of Digital Assets",
+			company: "Meridian Treasury Partners",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The secondary liquidity feature was game-changing. We deployed $12M into a 6-month term but needed early exit after 3 months—Nexio's marketplace allowed us to exit at fair value without disrupting the borrower's positions. That flexibility made our CFO confident approving larger allocations.",
+			image: "/generated/image-professional-black-woman-finance-directo.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for institutional Bitcoin treasuries"
+	subtitle="Transparent credit infrastructure that delivers predictable yield without compromising control or visibility"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Ring-fenced strategy vaults",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Each lending vault is tied to a single, measurable strategy like CME basis or delta-neutral funding. Your BTC never crosses between strategies, ensuring transparent risk isolation and eliminating commingled pool exposure."
 		},
 		{
-			title: "Data Analysis",
+			title: "Predictable fixed-term yields",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Lock in transparent coupons with fixed terms that CFOs can budget around. No floating rate surprises or utilization-driven spikes—just the predictable BTC-denominated income treasuries need to justify balance sheet allocation."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Vetted counterparties under legal agreements",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"All borrowers are KYC'd trading firms operating under signed legal covenants with enforceable recourse. Real-time on-chain visibility shows collateralization status and covenant compliance, replacing opaque OTC counterparty risk."
+		},
+		{
+			title: "On-chain transparency with programmable rails",
+			description:
+				"Monitor utilization, collateral levels, and strategy performance in real time through on-chain reporting. Programmable infrastructure delivers the auditability treasurers demand with the control DeFi can't provide."
+		},
+		{
+			title: "Native BTC funding for borrowers",
+			description:
+				"Trading desks access transparent BTC credit lines without FX friction or USD swap costs. Under-collateralized lines for top-tier desks mirror traditional credit markets, delivering efficient capital for market-making and basis strategies."
+		},
+		{
+			title: "Secondary liquidity for lenders",
+			description:
+				"Exit positions early without disrupting borrower operations through secondary market liquidity. Maintain treasury flexibility while your BTC generates predictable yield in ring-fenced credit structures."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Turn idle Bitcoin into predictable yield"
+	subtitle="Join the pilot program"
+	description="Our proof-of-concept launches next month with vetted market-making desks and institutional lenders. Ring-fenced vaults, transparent collateralization, and enforceable legal agreements—delivered through the fixed-income infrastructure treasuries actually need."
+	imageSrc="/generated/image-a-confident-finance-executive-sits-at-a-.webp"
+	callsToAction={[
+		{ href: "/contact", label: "Request early access", variant: "primary" },
+		{ href: "/about", label: "Learn about our approach", variant: "secondary" }
+	]}
+/>
