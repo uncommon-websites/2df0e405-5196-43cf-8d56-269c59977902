@@ -6,16 +6,27 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Predictable Bitcoin yield through transparent credit markets"
+	subtitle="Ring-fenced lending strategies connecting institutional Bitcoin treasuries with vetted trading counterparties under enforceable legal agreements."
+	imageSrc="/generated/image-a-cozy-indoor-caf-environment-with-a-div.webp"
+	callsToAction={[
+		{ href: "/contact", label: "Get started" },
+		{ href: "/about", label: "Learn more" }
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by Bitcoin treasury leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/microstrategy.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/galaxy.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/coinbase.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/marathondhn.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
